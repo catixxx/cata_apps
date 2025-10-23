@@ -182,7 +182,7 @@ with col15:
     st.subheader("💗 Control MQTT (Voz)")
     st.image(Image.open("imagen15.jpg"))
     st.write("Control de dispositivos mediante comandos de voz.")
-    st.markdown("💗 [Ir a la aplicación] (https://ctrlvoice-cwg7b2khfj2a7r2q4trjtu.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación](https://ctrlvoice-cwg7b2khfj2a7r2q4trjtu.streamlit.app/)")
 
 st.write("---")
 
