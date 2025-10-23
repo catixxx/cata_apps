@@ -90,7 +90,7 @@ with col3:
     st.subheader("💗 Voz a Texto")
     st.image(Image.open("imagen3.jpg"))
     st.write("Convierte voz en texto usando IA.")
-    st.markdown("💗 [Ir a la aplicación]https://pbeo6cxaxwky2mxj3cxj57.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación](https://pbeo6cxaxwky2mxj3cxj57.streamlit.app/)")
 
 st.write("---")
 
@@ -107,7 +107,7 @@ with col5:
     st.subheader("💗 Analisis de Sentimiento")
     st.image(Image.open("imagen5.jpg"))
     st.write("Reconoce emociones de un texto")
-    st.markdown("💗 [Ir a la aplicación]( https://3uxhnpwvxuwdawcd85n3ee.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación](https://3uxhnpwvxuwdawcd85n3ee.streamlit.app/)")
 
 with col6:
     st.subheader("💗 Analisis de texto (Ingles)")
@@ -124,7 +124,7 @@ with col7:
     st.subheader("💗  Analisis de texto (Español)")
     st.image(Image.open("imagen7.jpg"))
     st.write("Analiza el texto puesto desde preguntas")
-    st.markdown("💗 [Ir a la aplicación]( https://uzvwnqkgpdvyafmupea9fu.streamlit.app/")
+    st.markdown("💗 [Ir a la aplicación](https://uzvwnqkgpdvyafmupea9fu.streamlit.app/")
 
 with col8:
     st.subheader("💗 Reconocimiento de Objetos")
@@ -136,7 +136,7 @@ with col9:
     st.subheader("💗 Reconocimiento de Gestos")
     st.image(Image.open("imagen9.jpg"))
     st.write("Interpreta movimientos usando visión computacional.")
-    st.markdown("💗 [Ir a la aplicación] https://bzllgjxt9zzhxw72snvu7p.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación] (https://bzllgjxt9zzhxw72snvu7p.streamlit.app/)")
 
 st.write("---")
 
@@ -147,7 +147,7 @@ with col10:
     st.subheader("💗 Chat PDF")
     st.image(Image.open("imagen10.jpg"))
     st.write("Analiza el contenido de un documento PDF.")
-    st.markdown("💗 [Ir a la aplicación]( https://ajjmaezetnmmeds42r2ttl.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación](https://ajjmaezetnmmeds42r2ttl.streamlit.app/)")
 
 with col11:
     st.subheader("💗 Interpretacion de imagen")
@@ -170,7 +170,7 @@ with col13:
     st.subheader("💗 Reconocimiento de bocetos")
     st.image(Image.open("imagen13.jpg"))
     st.write("Analiza los dibujos que se hagan en el tablero.")
-    st.markdown("💗 [Ir a la aplicación]( https://drawrecog-htvmekqhjm2psqx3huthk9.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación](https://drawrecog-htvmekqhjm2psqx3huthk9.streamlit.app/)")
 
 with col14:
     st.subheader("💗 Control MQTT (Botones)")
@@ -182,7 +182,7 @@ with col15:
     st.subheader("💗 Control MQTT (Voz)")
     st.image(Image.open("imagen15.jpg"))
     st.write("Control de dispositivos mediante comandos de voz.")
-    st.markdown("💗 [Ir a la aplicación] https://ctrlvoice-cwg7b2khfj2a7r2q4trjtu.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación] (https://ctrlvoice-cwg7b2khfj2a7r2q4trjtu.streamlit.app/)")
 
 st.write("---")
 
