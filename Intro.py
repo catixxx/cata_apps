@@ -58,10 +58,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-
 # 🌷 Título principal
 st.title("🌸 Portafolio de aplicaciones con Inteligencia Artificial 🌸")
 
+# 🌼 Sidebar
 with st.sidebar:
     st.subheader("✨ Aplicaciones con Inteligencia Artificial ✨")
     parrafo = (
@@ -71,7 +71,6 @@ with st.sidebar:
     )
     st.write(parrafo)
 
-url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("Catalina Sanabria Monares")
 
 # 🌼 Columnas principales
@@ -82,113 +81,112 @@ with col1:
     st.subheader("💗 Intro")
     image = Image.open('txt_to_audio2.png')
     st.image(image, width=190)
-    st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
+    st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial")
     url = "https://imultimod.streamlit.app/"
     st.write(f"Texto a voz: [Enlace]({url})")
 
     st.subheader("💗 Interfaz texto_voz")
     image = Image.open('txt_to_audio.png')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
+    st.write("En la siguiente enlace veremos cómo se detectan objetos en imágenes.")
     url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
     st.write(f"YOLO: [Enlace]({url})")
 
     st.subheader("💗 Interfaz voz_texto")
     image = Image.open('OIG5.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+    st.write("En el siguiente enlace veremos cómo puedes usar tu modelo entrenado.")
     url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
-    st.write(f"YOLO: [Enlace]({url})")
+    st.write(f"Modelo: [Enlace]({url})")
 
     st.subheader("💗 Interfaz OCR")
     image = Image.open('OIG8.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
+    st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.")
     url = "https://traductor-ab0sp9f6fi.streamlit.app/"
     st.write(f"Voz a texto: [Enlace]({url})")
 
-    st.subheader("💗 Analisis de Sentimiento")
+    st.subheader("💗 Análisis de Sentimiento")
     image = Image.open('data_analisis.png')
     st.image(image, width=190)
-    st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
+    st.write("En el siguiente enlace veremos cómo se pueden analizar datos usando agentes.")
     url = "https://asistpy-csv.streamlit.app/"
     st.write(f"Datos: [Enlace]({url})")
 
 # --- COLUMNA 2 ---
-with col2: 
-    st.subheader("💗 Analisis de texto (ingles)")
+with col2:
+    st.subheader("💗 Análisis de texto (inglés)")
     image = Image.open('OIG3.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
+    st.write("En la siguiente enlace veremos cómo realizar transcripciones de audio/video.")
     url = "https://transcript-whisper.streamlit.app/"
     st.write(f"Transcriptor: [Enlace]({url})")
 
-    st.subheader("💗 Analisis de texto (español)")
+    st.subheader("💗 Análisis de texto (español)")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
-    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento PDF.")
     url = "https://chatpdf-cc.streamlit.app/"
     st.write(f"RAG: [Enlace]({url})")
 
     st.subheader("💗 Reconocimiento de objeto en imagen")
     image = Image.open('OIG4.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+    st.write("En el siguiente enlace veremos la capacidad de análisis en imágenes.")
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
- 
+    st.write(f"Visión: [Enlace]({url})")
+
     st.subheader("💗 Reconocimiento de gestos")
     image = Image.open('OIG6.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+    st.write("En el siguiente enlace veremos la capacidad de interacción con el mundo físico.")
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
+    st.write(f"Visión: [Enlace]({url})")
 
-    st.subheader("💗 Chat pdf")
+    st.subheader("💗 Chat PDF")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
-    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento PDF.")
     url = "https://chatpdf-cc.streamlit.app/"
     st.write(f"RAG: [Enlace]({url})")
-    
-    
 
 # --- COLUMNA 3 ---
-with col3: 
-  st.subheader("💗 Interpretacion de imagen")
+with col3:
+    st.subheader("💗 Interpretación de imagen")
     image = Image.open('OIG4.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+    st.write("En el siguiente enlace veremos la capacidad de análisis en imágenes.")
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
- 
-    st.subheader("💗 Interfaz tactil")
+    st.write(f"Visión: [Enlace]({url})")
+
+    st.subheader("💗 Interfaz táctil")
     image = Image.open('OIG6.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+    st.write("En el siguiente enlace veremos la capacidad de interacción con el mundo físico.")
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})") 
+    st.write(f"Visión: [Enlace]({url})")
 
-     st.subheader("💗 Aplicacion de reconocimiento de bocetos")
+    st.subheader("💗 Aplicación de reconocimiento de bocetos")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
-    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
+    st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento PDF.")
     url = "https://chatpdf-cc.streamlit.app/"
     st.write(f"RAG: [Enlace]({url})")
 
     st.subheader("💗 Control MQTT (Botones)")
     image = Image.open('OIG4.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
+    st.write("En el siguiente enlace veremos control de dispositivos con botones.")
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
- 
+    st.write(f"MQTT: [Enlace]({url})")
+
     st.subheader("💗 Control MQTT (Voz)")
     image = Image.open('OIG6.jpg')
     st.image(image, width=200)
-    st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
+    st.write("En el siguiente enlace veremos control por comandos de voz.")
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
+    st.write(f"MQTT Voz: [Enlace]({url})")
 
 # 🌷 Línea final decorativa
 st.markdown("---")
+
