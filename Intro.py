@@ -150,16 +150,16 @@ with col10:
     st.markdown("💗 [Ir a la aplicación]( https://ajjmaezetnmmeds42r2ttl.streamlit.app/)")
 
 with col11:
-    st.subheader("💗 Recomendador de Películas")
+    st.subheader("💗 Interpretacion de imagen")
     st.image(Image.open("imagen11.jpg"))
-    st.write("Sugiere películas según tus preferencias.")
-    st.markdown("💗 [Ir a la aplicación](https://recomendador-peliculas.streamlit.app/)")
+    st.write("Análisis avanzado de imágenes con IA.")
+    st.markdown("💗 [Ir a la aplicación](https://yz2rgx5rxrqsnrjbegaw8d.streamlit.app/)")
 
 with col12:
-    st.subheader("💗 Traductor Multilingüe")
+    st.subheader("💗 Interfaz Tactil")
     st.image(Image.open("imagen12.jpg"))
-    st.write("Traduce textos automáticamente a varios idiomas.")
-    st.markdown("💗 [Ir a la aplicación](https://traductor-ia.streamlit.app/)")
+    st.write("Puedes hacer dibujos en un tablero.")
+    st.markdown("💗 [Ir a la aplicación](https://tablero-6pbavfx8iqfyobyfffug4g.streamlit.app/)")
 
 st.write("---")
 
@@ -167,28 +167,28 @@ st.write("---")
 col13, col14, col15 = st.columns(3)
 
 with col13:
-    st.subheader("💗 Detección de Emociones en Rostros")
+    st.subheader("💗 Reconocimiento de bocetos")
     st.image(Image.open("imagen13.jpg"))
-    st.write("Analiza expresiones faciales con redes neuronales.")
-    st.markdown("💗 [Ir a la aplicación](https://emociones-faciales.streamlit.app/)")
+    st.write("Analiza los dibujos que se hagan en el tablero.")
+    st.markdown("💗 [Ir a la aplicación]( https://drawrecog-htvmekqhjm2psqx3huthk9.streamlit.app/)")
 
 with col14:
-    st.subheader("💗 Generador de Música")
+    st.subheader("💗 Control MQTT (Botones)")
     st.image(Image.open("imagen14.jpg"))
-    st.write("Crea melodías automáticas usando IA musical.")
-    st.markdown("💗 [Ir a la aplicación](https://musica-ia.streamlit.app/)")
+    st.write("Control de dispositivos mediante MQTT y botones.")
+    st.markdown("💗 [Ir a la aplicación](https://sendcmqtt-cvddr5bndohn3vf69tazjd.streamlit.app/)")
 
 with col15:
-    st.subheader("💗 Análisis de Datos")
+    st.subheader("💗 Control MQTT (Voz)")
     st.image(Image.open("imagen15.jpg"))
-    st.write("Visualiza y analiza datos con ayuda de IA.")
-    st.markdown("💗 [Ir a la aplicación](https://analisis-datos.streamlit.app/)")
+    st.write("Control de dispositivos mediante comandos de voz.")
+    st.markdown("💗 [Ir a la aplicación] https://ctrlvoice-cwg7b2khfj2a7r2q4trjtu.streamlit.app/)")
 
 st.write("---")
 
 # 🌸 Pie de página
 st.markdown(
-    "<p style='text-align:center; color:#b30086;'>💗 Portafolio creado con amor y creatividad 💗</p>",
+    "<p style='text-align:center; color:#b30086;'>💗 Fin del portafolio  💗</p>",
     unsafe_allow_html=True
 )
 
