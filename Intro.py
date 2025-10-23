@@ -100,8 +100,6 @@ with col1:
     url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
     st.write(f"YOLO: [Enlace]({url})")
 
-# --- COLUMNA 2 ---
-with col2: 
     st.subheader("💗 Interfaz OCR")
     image = Image.open('OIG8.jpg')
     st.image(image, width=200)
@@ -116,6 +114,8 @@ with col2:
     url = "https://asistpy-csv.streamlit.app/"
     st.write(f"Datos: [Enlace]({url})")
 
+# --- COLUMNA 2 ---
+with col2: 
     st.subheader("💗 Analisis de texto (ingles)")
     image = Image.open('OIG3.jpg')
     st.image(image, width=200)
@@ -123,8 +123,6 @@ with col2:
     url = "https://transcript-whisper.streamlit.app/"
     st.write(f"Transcriptor: [Enlace]({url})")
 
-# --- COLUMNA 3 ---
-with col3: 
     st.subheader("💗 Analisis de texto (español)")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
@@ -146,16 +144,18 @@ with col3:
     url = "https://vision2-gpt4o.streamlit.app/"
     st.write(f"Vision: [Enlace]({url})")
 
-# --- COLUMNA 4 ---
-with col4: 
     st.subheader("💗 Chat pdf")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
     st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
     url = "https://chatpdf-cc.streamlit.app/"
     st.write(f"RAG: [Enlace]({url})")
+    
+    
 
-    st.subheader("💗 Interpretacion de imagen")
+# --- COLUMNA 3 ---
+with col3: 
+  st.subheader("💗 Interpretacion de imagen")
     image = Image.open('OIG4.jpg')
     st.image(image, width=200)
     st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
@@ -167,11 +167,9 @@ with col4:
     st.image(image, width=200)
     st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
     url = "https://vision2-gpt4o.streamlit.app/"
-    st.write(f"Vision: [Enlace]({url})")
+    st.write(f"Vision: [Enlace]({url})") 
 
-# --- COLUMNA 5 ---
-with col5: 
-    st.subheader("💗 Aplicacion de reconocimiento de bocetos")
+     st.subheader("💗 Aplicacion de reconocimiento de bocetos")
     image = Image.open('Chat_pdf.png')
     st.image(image, width=190)
     st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
@@ -194,5 +192,3 @@ with col5:
 
 # 🌷 Línea final decorativa
 st.markdown("---")
-st.markdown("<div style='text-align:center; color:#c76ba4;'>✨ Hecho con amor y curiosidad por Catalina ✨</div>", unsafe_allow_html=True)
-
