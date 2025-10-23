@@ -77,8 +77,8 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("💗 Introducción")
     st.image(Image.open("imagen1.jpg"))
-    st.write("Presentación general del portafolio.")
-    st.markdown("💗 [Ir a la aplicación](https://intro1.streamlit.app/)")
+    st.write("Primera aplicacion.")
+    st.markdown("💗 [Ir a la aplicación](https://miprimeraappcatixx.streamlit.app/)")
 
 with col2:
     st.subheader("💗 Introducción 2")
