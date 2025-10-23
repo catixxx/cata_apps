@@ -81,16 +81,16 @@ with col1:
     st.markdown("💗 [Ir a la aplicación](https://miprimeraappcatixx.streamlit.app/)")
 
 with col2:
-    st.subheader("💗 Introducción 2")
+    st.subheader("💗 Texto a voz")
     st.image(Image.open("imagen2.jpg"))
-    st.write("Segunda práctica introductoria.")
-    st.markdown("💗 [Ir a la aplicación](https://intro2.streamlit.app/)")
+    st.write("Convierte texto a audio")
+    st.markdown("💗 [Ir a la aplicación]( https://pagina2profe.streamlit.app/)")
 
 with col3:
     st.subheader("💗 Voz a Texto")
     st.image(Image.open("imagen3.jpg"))
     st.write("Convierte voz en texto usando IA.")
-    st.markdown("💗 [Ir a la aplicación](https://voz-texto.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación]https://pbeo6cxaxwky2mxj3cxj57.streamlit.app/)")
 
 st.write("---")
 
@@ -98,22 +98,22 @@ st.write("---")
 col4, col5, col6 = st.columns(3)
 
 with col4:
-    st.subheader("💗 Aplicación de Reconocimiento de Bocetos")
+    st.subheader("💗 Interfaz OCR ")
     st.image(Image.open("imagen4.jpg"))
-    st.write("Usa RAG para procesar información desde un documento PDF.")
-    st.markdown("💗 [Ir a la aplicación](https://chatpdf-cc.streamlit.app/)")
+    st.write("Reconocimiento optico de caracteres")
+    st.markdown("💗 [Ir a la aplicación]( https://ocr-audio-sunwazxyy3htz7w8eqm7yn.streamlit.app/)")
 
 with col5:
-    st.subheader("💗 Clasificador de Imágenes")
+    st.subheader("💗 Analisis de Sentimiento")
     st.image(Image.open("imagen5.jpg"))
-    st.write("Reconoce objetos en imágenes usando un modelo IA.")
-    st.markdown("💗 [Ir a la aplicación](https://clasificador-imagenes.streamlit.app/)")
+    st.write("Reconoce emociones de un texto")
+    st.markdown("💗 [Ir a la aplicación]( https://3uxhnpwvxuwdawcd85n3ee.streamlit.app/)")
 
 with col6:
-    st.subheader("💗 Generador de Texto GPT")
+    st.subheader("💗 Analisis de texto (Ingles)")
     st.image(Image.open("imagen6.jpg"))
-    st.write("Genera texto automáticamente con inteligencia artificial.")
-    st.markdown("💗 [Ir a la aplicación](https://generador-gpt.streamlit.app/)")
+    st.write("Explora la relación entre los textos y una pregunta")
+    st.markdown("💗 [Ir a la aplicación](https://aafml3fw2lsqviu7k6dyjm.streamlit.app/)")
 
 st.write("---")
 
@@ -121,22 +121,22 @@ st.write("---")
 col7, col8, col9 = st.columns(3)
 
 with col7:
-    st.subheader("💗 Análisis de Sentimientos")
+    st.subheader("💗  Analisis de texto (Español)")
     st.image(Image.open("imagen7.jpg"))
-    st.write("Detecta emociones en textos escritos.")
-    st.markdown("💗 [Ir a la aplicación](https://sentimientos.streamlit.app/)")
+    st.write("Analiza el texto puesto desde preguntas")
+    st.markdown("💗 [Ir a la aplicación]( https://uzvwnqkgpdvyafmupea9fu.streamlit.app/")
 
 with col8:
-    st.subheader("💗 Generador de Imágenes IA")
+    st.subheader("💗 Reconocimiento de Objetos")
     st.image(Image.open("imagen8.jpg"))
-    st.write("Crea imágenes a partir de texto con IA generativa.")
-    st.markdown("💗 [Ir a la aplicación](https://imagenes-ia.streamlit.app/)")
+    st.write("Reconoce los objetos de una imagen")
+    st.markdown("💗 [Ir a la aplicación](https://7gfmxhghfykz3hqwd5rtgw.streamlit.app/)")
 
 with col9:
-    st.subheader("💗 Chatbot Asistente")
+    st.subheader("💗 Reconocimiento de Gestos")
     st.image(Image.open("imagen9.jpg"))
-    st.write("Asistente virtual conversacional basado en GPT.")
-    st.markdown("💗 [Ir a la aplicación](https://chatbot-ia.streamlit.app/)")
+    st.write("Interpreta movimientos usando visión computacional.")
+    st.markdown("💗 [Ir a la aplicación] https://bzllgjxt9zzhxw72snvu7p.streamlit.app/)")
 
 st.write("---")
 
@@ -144,10 +144,10 @@ st.write("---")
 col10, col11, col12 = st.columns(3)
 
 with col10:
-    st.subheader("💗 Detección de Objetos")
+    st.subheader("💗 Chat PDF")
     st.image(Image.open("imagen10.jpg"))
-    st.write("Identifica objetos en tiempo real con visión por computadora.")
-    st.markdown("💗 [Ir a la aplicación](https://deteccion-objetos.streamlit.app/)")
+    st.write("Analiza el contenido de un documento PDF.")
+    st.markdown("💗 [Ir a la aplicación]( https://ajjmaezetnmmeds42r2ttl.streamlit.app/)")
 
 with col11:
     st.subheader("💗 Recomendador de Películas")
