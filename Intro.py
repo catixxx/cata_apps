@@ -136,7 +136,7 @@ with col9:
     st.subheader("💗 Reconocimiento de Gestos")
     st.image(Image.open("imagen9.jpg"))
     st.write("Interpreta movimientos usando visión computacional.")
-    st.markdown("💗 [Ir a la aplicación] (https://bzllgjxt9zzhxw72snvu7p.streamlit.app/)")
+    st.markdown("💗 [Ir a la aplicación](https://bzllgjxt9zzhxw72snvu7p.streamlit.app/)")
 
 st.write("---")
 
