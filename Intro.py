@@ -50,7 +50,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("💗 Introducción")
-    image = Image.open("intro.png")
+    image = Image.open("imagen1.jpg")
     st.image(image, width=190)
     st.write("Presentación general del portafolio.")
     url = "https://intro1.streamlit.app/"
@@ -58,7 +58,7 @@ with col1:
 
 with col2:
     st.subheader("💗 Introducción 2")
-    image = Image.open("intro2.png")
+    image = Image.open("imagen2.jpg")
     st.image(image, width=190)
     st.write("Segunda práctica introductoria.")
     url = "https://intro2.streamlit.app/"
@@ -66,7 +66,7 @@ with col2:
 
 with col3:
     st.subheader("💗 Voz a Texto")
-    image = Image.open("voz.png")
+    image = Image.open("imagen3.jpg")
     st.image(image, width=190)
     st.write("Convierte voz en texto usando IA.")
     url = "https://voz-texto.streamlit.app/"
@@ -79,7 +79,7 @@ col4, col5, col6 = st.columns(3)
 
 with col4:
     st.subheader("💗 Aplicación de Reconocimiento de Bocetos")
-    image = Image.open("Chat_pdf.png")
+    image = Image.open("imagen4.jpg")
     st.image(image, width=190)
     st.write("Usa RAG para procesar información desde un documento PDF.")
     url = "https://chatpdf-cc.streamlit.app/"
@@ -87,7 +87,7 @@ with col4:
 
 with col5:
     st.subheader("💗 Clasificador de Imágenes")
-    image = Image.open("clasificador.png")
+    image = Image.open("imagen5.jpg")
     st.image(image, width=190)
     st.write("Reconoce objetos en imágenes usando un modelo IA.")
     url = "https://clasificador-imagenes.streamlit.app/"
@@ -95,7 +95,7 @@ with col5:
 
 with col6:
     st.subheader("💗 Generador de Texto GPT")
-    image = Image.open("gpt_app.png")
+    image = Image.open("imagen6.jpg")
     st.image(image, width=190)
     st.write("Genera texto automáticamente con inteligencia artificial.")
     url = "https://generador-gpt.streamlit.app/"
@@ -108,7 +108,7 @@ col7, col8, col9 = st.columns(3)
 
 with col7:
     st.subheader("💗 Análisis de Sentimientos")
-    image = Image.open("sentimientos.png")
+    image = Image.open("imagen7.jpg")
     st.image(image, width=190)
     st.write("Detecta emociones en textos escritos.")
     url = "https://sentimientos.streamlit.app/"
@@ -116,7 +116,7 @@ with col7:
 
 with col8:
     st.subheader("💗 Generador de Imágenes IA")
-    image = Image.open("imagenes.png")
+    image = Image.open("imagen8.jpg")
     st.image(image, width=190)
     st.write("Crea imágenes a partir de texto con IA generativa.")
     url = "https://imagenes-ia.streamlit.app/"
@@ -124,7 +124,7 @@ with col8:
 
 with col9:
     st.subheader("💗 Chatbot Asistente")
-    image = Image.open("chatbot.png")
+    image = Image.open("imagen9.jpg")
     st.image(image, width=190)
     st.write("Asistente virtual conversacional basado en GPT.")
     url = "https://chatbot-ia.streamlit.app/"
@@ -137,7 +137,7 @@ col10, col11, col12 = st.columns(3)
 
 with col10:
     st.subheader("💗 Detección de Objetos")
-    image = Image.open("objetos.png")
+    image = Image.open("imagen10.jpg")
     st.image(image, width=190)
     st.write("Identifica objetos en tiempo real con visión por computadora.")
     url = "https://deteccion-objetos.streamlit.app/"
@@ -145,7 +145,7 @@ with col10:
 
 with col11:
     st.subheader("💗 Recomendador de Películas")
-    image = Image.open("peliculas.png")
+    image = Image.open("imagen11.jpg")
     st.image(image, width=190)
     st.write("Sugiere películas según tus preferencias.")
     url = "https://recomendador-peliculas.streamlit.app/"
@@ -153,7 +153,7 @@ with col11:
 
 with col12:
     st.subheader("💗 Traductor Multilingüe")
-    image = Image.open("traductor.png")
+    image = Image.open("imagen12.jpg")
     st.image(image, width=190)
     st.write("Traduce textos automáticamente a varios idiomas.")
     url = "https://traductor-ia.streamlit.app/"
@@ -166,7 +166,7 @@ col13, col14, col15 = st.columns(3)
 
 with col13:
     st.subheader("💗 Detección de Emociones en Rostros")
-    image = Image.open("emociones.png")
+    image = Image.open("imagen13.jpg")
     st.image(image, width=190)
     st.write("Analiza expresiones faciales con redes neuronales.")
     url = "https://emociones-faciales.streamlit.app/"
@@ -174,7 +174,7 @@ with col13:
 
 with col14:
     st.subheader("💗 Generador de Música")
-    image = Image.open("musica.png")
+    image = Image.open("imagen14.jpg")
     st.image(image, width=190)
     st.write("Crea melodías automáticas usando IA musical.")
     url = "https://musica-ia.streamlit.app/"
@@ -182,7 +182,7 @@ with col14:
 
 with col15:
     st.subheader("💗 Análisis de Datos")
-    image = Image.open("datos.png")
+    image = Image.open("imagen15.jpg")
     st.image(image, width=190)
     st.write("Visualiza y analiza datos con ayuda de IA.")
     url = "https://analisis-datos.streamlit.app/"
